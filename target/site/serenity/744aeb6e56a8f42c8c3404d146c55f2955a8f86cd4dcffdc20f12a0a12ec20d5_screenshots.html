@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Demo Project using Serenity and Cucumber</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="166dda3bef7bacdc492105d6be664b743c264b051a9585bdb8851d4fe0857c54.html">Register User</a></span>
+                > <span class="truncate-60"><a
+                    href="744aeb6e56a8f42c8c3404d146c55f2955a8f86cd4dcffdc20f12a0a12ec20d5.html">Register User </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-05-2021 22:08</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Register User </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As User
+I want to login
+To register on the platform
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="58df30bc22d65aa45b99efb580f2339cf80b3e762c4d06453d6c956a8b320390.html">Runner
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="b5a51fc64ff8ca83de06a356b9bd0e5c8cbde54af2b1e8e384a9228fd9a93a6f.html">Register
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Register User
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Cucumber exception: Arity mismatch: Step Definition 'certification.proyectobase.stepdefinitions.TestStepdefinitions.verifiesThatIsLoadingWithTextSuccessfulRegistration(String) in file:/D:/Choucair_Maribell/Formaci&oacute;n_Automatizaci&oacute;n/Choucair/Screenplay/certification.proyectobase/build/classes/java/test/' with pattern [^verifies that is loading with text Successful registration$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. ">
+                            Cucumber exception: Arity mismatch: Step Definition 'certification.proyectobase.stepdefinitions.TestStepdefinitions.verifiesThatIsLoadingWithTextSuccessfulRegistration(String) in file:/D:/Choucair_Maribell/Formaci&oacute;n_Automatizaci&oacut...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    cucumber.runtime.CucumberException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Arity mismatch: Step Definition 'certification.proyectobase.stepdefinitions.TestStepdefinitions.verifiesThatIsLoadingWithTextSuccessfulRegistration(String) in file:/D:/Choucair_Maribell/Formación_Automatización/Choucair/Screenplay/certification.proyectobase/build/classes/java/test/' with pattern [^verifies that is loading with text Successful registration$] is declared with 1 parameters. However, the gherkin step has 0 arguments []. <br>Step text: verifies that is loading with text Successful registration</pre>
+                                    </h5>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource1919939942913263831.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="102b43731cd3caecdf990124de2d7b9b8dd9d64e8c666077a137d659d9416e74.png" title="Given she quiere registrar sus datos en the Web Automation advantageonlines" width="1366"/>
+                <img src="0fa0547c6214d10f336dbf2145140a0eccd32c80ed7bd25386014a4227efbf51.png" title="maribell opens the Register up page" width="1366"/>
+                <img src="066fe13f9b17214f6e780ce33764e04ac0b58bcb3e2b78ba8600ba6b5b5f22a5.png" title="When she enter your personal data
+| userName | email | password | confirm_password | first_Name | last_name | phone_Number | country | city | address | state | postal_Code |
+| Maribell | mary198mx@gmail.com | Daniel22* | Daniel22* | maribell | Munoz | 3006295223 | Colombia | Medellin | Carrera 12 12-15 | Antioquia | 10120 |" width="1366"/>
+                <img src="bdb0366817ba3508f35cded40c05095216acc9e8e32724db760ba3b4ea5e0879.png" title="Then  should be an element that is visible" width="1366"/>
+                <img src="38f1e1be19e61a15ca6727ab00ccdc28ddc8b9df4299566cf19e487fde507e17.png" title="maribell enters 'Maribell' into " width="1366"/>
+                <img src="2a5c341ba9022dc7228359c1c286860caba1e014d8913631409f1d2499c660fc.png" title="maribell enters 'mary198mx@gmail.com' into " width="1366"/>
+                <img src="7a8be724155cb2dfc642b860c8ba9944a856593fdeb49c315a7c48c0eb3232ad.png" title="maribell enters 'Daniel22*' into " width="1366"/>
+                <img src="0a7c36b3ace4298ddbb518b1de6256bf097adca63c164d903378a51ca7820f18.png" title="maribell enters 'Daniel22*' into " width="1366"/>
+                <img src="5680943ccbc41914d6973b16c61aad36afc19c9d51926b465b30a612609b3e5a.png" title="maribell enters 'maribell' into " width="1366"/>
+                <img src="b29fc99c070868f266527ab5580909a35d097fb22c5a1222f471548453a0b9f8.png" title="maribell enters 'Munoz' into " width="1366"/>
+                <img src="dcfffffa334a986a486869df6ba3ca0c60aba73bd93f3ab2ea49bce9d79309eb.png" title="maribell enters '3006295223' into " width="1366"/>
+                <img src="91b973d2052645c4c471eb1bfae895934bf74eb6aac03f4e5171a1719f4dcb97.png" title="maribell select Colombia on " width="1366"/>
+                <img src="7c6bda9c191b2f76e8063d05f9730f553e911f861c8baf7185d000b1c487873e.png" title="maribell enters 'Medellin' into " width="1366"/>
+                <img src="d8f87b50ff3c5d25f2db1aeead11ed6f2e538162b89f06f6c1283f22b7a16214.png" title="maribell enters 'Carrera 12 12-15' into " width="1366"/>
+                <img src="4bcd7022cf3767a2dd237c00536fcb3ca2303b87411c08752401969c73c29fa6.png" title="maribell enters 'Antioquia' into " width="1366"/>
+                <img src="00c5292953f09a6d4f6876a770db92c4b27472ace22a2e3096dd07afa37647bd.png" title="maribell enters '10120' into " width="1366"/>
+                <img src="de769f0e3aeabbeb9912252c116ed531722cb55b22d51b5562254c9e2222ba7f.png" title="maribell clicks on " width="1366"/>
+                <img src="694cee8cbb0aa3b02642b959a99b7c9028470b693e5ca3743a600e2f55483171.png" title="maribell clicks on " width="1366"/>
+                <img src="066fe13f9b17214f6e780ce33764e04ac0b58bcb3e2b78ba8600ba6b5b5f22a5.png" title="Then verifies that is loading with text Successful registration: <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
